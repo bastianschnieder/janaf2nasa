@@ -22,10 +22,12 @@ The script converts the input data in JANAF format into the NASA-7 polynomial fo
 
 * `python3 t2nasa.py`
 
-The user can also generate plots to visualize the fit quality.
+The user can also generate plots to visualize the fit quality:
+
 ![Fit quality for an example molecule in the temperature range from 200 K to 2000 K.](example.svg)
 
-**t2nasa** saves the output data in a text file `nasa.dat`
+**t2nasa** saves the output data in a text file `nasa.dat`:
+
 ```text
 SPECIES NAME                     SUMFORMULA G    200.00 2000.00 600.00      1
 +5.25399813e+00+5.19321661e-02-3.76088928e-05+1.38816568e-08-2.05987837e-12 2
@@ -38,6 +40,3 @@ SPECIES NAME                     SUMFORMULA G    200.00 2000.00 600.00      1
  * [numpy](https://numpy.org/)
  * [scipy](https://docs.scipy.org/doc/scipy/)
  * [matplotlib](https://matplotlib.org/)
-
-## Acknowledgements
-**t2nasa** was inspired by the Matlab Code [JANAF-thermochemical-tables-to-NASA-Glenn-coefficients-converter](https://github.com/Raphael-Boichot/JANAF-thermochemical-tables-to-NASA-Glenn-coefficients-converter)
