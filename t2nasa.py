@@ -20,7 +20,7 @@ except ImportError:
 DeltaH_f0   = -286.75E3                        # exp. value for heat of formation at T_zero (in cal)
 S_R_zero    = 46.31                            # exp. value for entropy at T_zero (in cal)
 T_zero      = 298.15                           # reference temperature for exp. values (in Kelvin)
-H_RT_zero   = -DeltaH_f0 / 8.314472 / 298.15   # dimensionless enthalpy 
+H_RT_zero   = DeltaH_f0 / 8.314472 / 298.15   # dimensionless enthalpy 
 Rgas        = 1.9872                           # ideal gas constant in cal/K/mol
 
 Low_temp_threshold  = 200                      # lower temperature range (in Kelvin)
