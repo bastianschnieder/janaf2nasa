@@ -21,7 +21,7 @@ a numpy array. Open the main script and adjust the `REQUIRED INPUT INFORMATION` 
 The script converts the input data in JANAF format into the NASA-7 polynomial format:
 
 * `python3 janaf2nasa.py`
-* 
+
 The user can also generate plots to visualize the fitting residuals:
 
 ![Fit quality for an example molecule in the temperature range from 200 K to 2000 K.](example.svg)
